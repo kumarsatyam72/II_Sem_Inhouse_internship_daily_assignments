@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Registration form</title>
+  </head>
+  <body>
+    <form action="//submit">
+    
+        <h1>Student Registration Form</h1>
+        <fieldset>
+            <legend>personal information</legend>
+        <label for="student_name"> <b>Full Name</b></label> <br />
+        <input
+          type="text"
+          name="student_name"
+          id="student_name"
+          placeholder="enter your name"
+        />
+        <br />
+        <label for="E-mail"><b>E-mail</b></label> <br />
+        <input
+          type="text"
+          name="E-mail"
+          id="E-mail"
+          placeholder="Enter Your E-mail"
+        />
+        <br />
+        <label for="Password"><b>Password</b></label> <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Create Password"
+        />
+        <br />
+        <label for="Mobile_num"> <b>Mobile Number</b></label
+        ><br />
+        <input
+          type="text"
+          name="mobile_num"
+          id="Mobile_num"
+          placeholder="Enter mobile number"
+        />
+        <br />
+        <label for="Birth_date"><b>Date Of Birth</b></label> <br />
+        <input type="date" id="Birth_date" /> <br />
+        <label for="Gender"> <b>Gender</b> </label> <br />
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" /> <br />
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female" /> <br />
+        <label for="other">Other</label>
+        <input type="radio" name="Gender" id="other" /> <br />
+
+        </fieldset>
+        <fieldset>
+            <legend>Academics details</legend>
+        <label for="Course"><b>Course</b></label>
+        <input
+          type="text"
+          name="course"
+          id="Course"
+          placeholder="select Course"
+        /><br />
+        <label for="Skill"><b>Skills</b></label> <br />
+        <label for="first_skill">HTML</label>
+        <input type="checkbox" name="HTML" id="first_skill" /> <br />
+        <label for="second_skill">CSS</label>
+        <input type="checkbox" name="CSS" id="second_skill" /> <br />
+        <label for="third_skill">JavaScript</label>
+        <input type="checkbox" name="JavaScript" id="third_skill" /><br />
+        <label for="fourth_skill">PHP</label>
+        <input type="checkbox" name="PHP" id="fouth_skill" /> <br />
+        <label for="resume"><b>Upload Resume</b></label> <br />
+        <input type="file" name="resume" id="resume" /> <br />
+        <label for="description"><b>About Yourself</b></label> <br />
+        <textarea name="self_intro" id="description" rows="5" cols="50">
+Write Something About Yourself...</textarea
+        >
+        <br />
+        </fieldset>
+        <button><b>Registor</b></button>
+    
+    </form>
+  </body>
+</html>
